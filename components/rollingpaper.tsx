@@ -6,7 +6,7 @@ export default function Rollingpaper() {
     <div className="flex flex-col items-center base-bg">
       <span className="title-text w-[calc(100vw-74px)] sm:w-[calc(640px-74px)]">응원의 롤링페이퍼</span>
       <Image
-        src="/rollingpaper2.png"
+        src="/rollingpaper3.png"
         width={800}
         height={800}
         alt="롤링페이퍼"
