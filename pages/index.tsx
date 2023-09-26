@@ -129,7 +129,7 @@ const Home: NextPage = () => {
       </div>
 
       <footer className="fixed bottom-0 z-30 bg-white border border-white">
-        <a href="https://forms.gle/nkYwkbRKRusdmdKS7">
+        <a href="https://forms.gle/GZtCXhkGnEhWXNNo9">
           <span className="text-[17px] font-extrabold flex justify-center w-[calc(100vw-44px)] sm:w-[calc(640px-44px)] bg-blue-500 text-white mx-5 my-2 py-3 rounded-lg">
             예매하기
           </span>
