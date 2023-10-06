@@ -94,25 +94,13 @@ const Home: NextPage = () => {
             onChange={setSelect}
             className={"flex border rounded-xl"}
           >
-            <Radio
-              name="select"
-              id={"공연정보"}
-              value={"공연정보"}
-            >
+            <Radio name="select" id={"공연정보"} value={"공연정보"}>
               공연정보
             </Radio>
-            <Radio
-              name="select"
-              id={"캐스팅"}
-              value={"캐스팅"}
-            >
+            <Radio name="select" id={"캐스팅"} value={"캐스팅"}>
               캐스팅
             </Radio>
-            <Radio
-              name="select"
-              id={"롤링페이퍼"}
-              value={"롤링페이퍼"}
-            >
+            <Radio name="select" id={"롤링페이퍼"} value={"롤링페이퍼"}>
               롤링페이퍼
             </Radio>
           </RadioGroup>
@@ -129,7 +117,8 @@ const Home: NextPage = () => {
       </div>
 
       <footer className="fixed bottom-0 z-30 bg-white border border-white">
-        <a href="https://forms.gle/GZtCXhkGnEhWXNNo9">
+        <a href="" onClick={() => alert("예매창은 만료되었습니다. 현장예매 부탁드립니다.")}>
+          {/* <a href="https://forms.gle/GZtCXhkGnEhWXNNo9"> */}
           <span className="text-[17px] font-extrabold flex justify-center w-[calc(100vw-44px)] sm:w-[calc(640px-44px)] bg-blue-500 text-white mx-5 my-2 py-3 rounded-lg">
             예매하기
           </span>
